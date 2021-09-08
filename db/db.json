@@ -1,0 +1,112 @@
+{
+  "users": [
+    {
+      "email": "lebathanhtuan@gmail.com",
+      "password": "$2a$10$gTMHDW.C3Oc/ff64Z0tX4uT8AUt0ZC10actp9O5jXlwOTlhmaFTFK",
+      "name": "Tuan",
+      "gender": "male",
+      "role": "admin",
+      "cart": [],
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861912252,
+      "id": 1
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "$2a$10$3vJIn.XbQHnrS1NG2G7rhe4y7D3kg3yIHvdMD3EEJgCPcYhD49aj2",
+      "name": "ABC",
+      "gender": "female",
+      "role": "user",
+      "cart": [],
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861887871,
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Trà sữa"
+    },
+    {
+      "id": 2,
+      "name": "Ăn vặt Hàn Quốc"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "icon": "🧋",
+      "name": "Trà sữa"
+    },
+    {
+      "id": 2,
+      "icon": "🐔",
+      "name": "Gà"
+    }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "name": "Trà Sữa Thanh Tuấn",
+      "address": "Tên đường ABC",
+      "categoryId": 1,
+      "createdAt": 1628512038217,
+      "updatedAt": 1630932237038,
+      "images": [],
+      "content": "<p>Giới thiệu về trà sửa của TT</p>"
+    },
+    {
+      "id": 2,
+      "name": "Doki",
+      "address": "Tên đường XYZ",
+      "categoryId": 2,
+      "createdAt": 1628512038217,
+      "updatedAt": 1630932237038,
+      "images": [],
+      "content": "<p>Giới thiệu về Doki</p>"
+    }
+  ],
+  "menus": [
+    {
+      "id": 1,
+      "storeId": 1,
+      "name": "Hồng Trà",
+      "price": 15000,
+      "tags": ["🧋"],
+      "description": "Trà hảo hạng của quán"
+    },
+    {
+      "id": 2,
+      "storeId": 1,
+      "name": "Lẫu Hàn Quốc",
+      "price": 15000,
+      "tags": ["🐔", "🍳"],
+      "description": "Trà hảo hạng của quán"
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "storeId": 1,
+      "url": "https://file.hstatic.net/1000135323/file/tra_sua_ngon_0e87236e4d7442fb826c502798ec6f7e_1024x1024.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "content": "Ahihi máy đẹp quá",
+      "rating": 5,
+      "userId": 1,
+      "storeId": 2
+    },
+    {
+      "id": 3,
+      "content": "Máy xấu bỏ xừ",
+      "rating": 1,
+      "userId": 1,
+      "storeId": 1
+    }
+  ],
+  "orders": []
+}
